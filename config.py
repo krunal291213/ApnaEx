@@ -15,10 +15,10 @@ BOT_TEXT = "PK KA EXTRACTOR"
 OWNER_ID = int(os.environ.get("OWNER_ID", "7425217769"))
 # ------------------------------------------------
 # //LOG CHANNEL ID 
-CHANNEL_ID1 = int(os.environ.get("CHANNEL_ID1", "-1003100878223"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1003100878223"))
 
 # //FORCE_CHANNEL_ID
-CHANNEL_ID2 = int(os.environ.get("CHANNEL_ID2", "-1003100878223")) 
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1003100878223")) 
 # ------------------------------------------------
 MONGO_URL = os.environ.get("MONGO_URL", "")
 # -----------------------------------------------
